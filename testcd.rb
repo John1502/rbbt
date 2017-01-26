@@ -1,6 +1,15 @@
-# All variables must start with "var_" to help identify variables. Constants start with "Cons_"
-var_number1 = 55
-var_number2 = 3
-Cons_number3 = 888
-total = var_number1 + var_number2
-puts total
+#simple math
+#puts "Please enter the two numbers you wish to perform the operation on and then the operation"
+#print "Please enter first number: "
+#num_1 = gets()
+#	if(num_1.is.a? integer)
+#		puts "Please enter second number: "
+#	else
+#		puts "Please enter a valid number"
+#	end
+
+print("Integer please: "
+user_num=Integer(gets) rescue false
+if user_num
+	#code
+end
